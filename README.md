@@ -1,4 +1,4 @@
-# go-tiny-consul-client
+# go-consulclient
 
 tiny consul (service) client
 

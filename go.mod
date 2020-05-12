@@ -1,3 +1,3 @@
-module github.com/kazeburo/go-tiny-consul-client
+module github.com/kazeburo/go-consulclient
 
 go 1.14
