@@ -1,4 +1,4 @@
-VERSION=0.0.1
+VERSION=0.0.2
 LDFLAGS=-ldflags "-X main.Version=${VERSION}"
 GO111MODULE=on
 
@@ -19,4 +19,3 @@ tag:
 	git tag v${VERSION}
 	git push origin v${VERSION}
 	git push origin master
-	goreleaser --rm-dist
